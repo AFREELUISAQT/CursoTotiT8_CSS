@@ -1,0 +1,15 @@
+
+
+section {
+    font-family: 'New Tegomin', sans-serif;
+    font-size: 20px;
+}
+
+
+@font-face {
+    font-family: 'LondrinaSolid';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('LondrinaSolid'), url(Londrina.woff2) format('woff2');
+}

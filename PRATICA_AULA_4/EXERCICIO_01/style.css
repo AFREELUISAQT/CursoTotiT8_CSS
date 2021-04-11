@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=New+Tegomin&family=Roboto&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    width: 80%;
+}
+
+.linea {
+    background-color: rgb(104, 102, 100);
+    width: 100%;
+    padding-top: 5px;   
+}
+
+header {
+    width: 100%;
+    height: 900px;
+}
+
+.content-img{
+    height: 374px; 
+    width: 883px;
+    display:block;
+    margin:auto;
+}
+
+.title {
+    font-size: 89px;
+    font-weight: bold;
+    width: 100%;
+    color: #FFB300;
+    padding-top: 10px;
+}
+
+.t-menu {
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+    letter-spacing: 20px;
+}
+
+.menu {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.button-nav {
+    width: 200px;
+    height: 60px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: gray;
+}
+
+.button-nav :hover{
+    transition: color 0.6s;
+    color: #FFB300;
+    font-weight: bold;
+}
+
+.author {
+    width: 95%;
+    font-size: 21px;
+    font-weight: bold;
+    padding-top: 20px;
+    text-align: right;
+} 
+
+main {
+    padding-top: 140px;
+    width: 100%;
+    height: 3200px;
+}
+
+.title-sub {
+    font-size: 34px;
+    color: #FFB300;
+    font-weight: bold;
+}
+
+.arepa {
+    font-size: 21px;
+    line-height: 1.61;
+    font-weight: lighter;
+}
+
+.ingred{
+    font-size: 21px;
+    line-height: 1.61;
+    font-weight: lighter; 
+}
+
+.comofaz{
+    font-size: 21px;
+    line-height: 1.61;
+    font-weight: lighter; 
+}
+
+.clic-index{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0037B3;
+}
+
+.sepa{
+    margin-top: 60px;
+}

@@ -1,0 +1,55 @@
+h2:hover {
+    color: tomato;
+}
+button:hover {
+    background-color: #333333;
+    color: white;
+}
+button:active{
+    background-color: tomato;
+}
+:focus{
+    outline: 2px solid tomato;
+}
+input:checked {
+    transform: scale(2);
+}
+input:default {
+    transform: scale(1);
+}
+input:disabled {
+    opacity: .5;
+}
+input:enabled {
+    background-color: tomato;
+}
+section .red:first-of-type {
+    color: tomato;
+}
+:visited {
+    color: orange;
+}
+:link {
+    color: yellowgreen;
+}
+:root {
+    font-size: 30px;
+}
+:target {
+    background-color: lightgray;
+}
+ul {
+    list-style-type: none;
+}
+li::after {
+    content: "*";
+}
+li:hover::after {
+    color: tomato;
+}
+li::first-letter {
+    font-size: 80px;
+}
+p::first-line {
+    font-size: 40px;
+}

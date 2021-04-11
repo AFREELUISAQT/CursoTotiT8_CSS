@@ -1,0 +1,31 @@
+h1 {
+    word-spacing: 50px;
+    letter-spacing: 20px;
+}
+p {
+    color: black;
+    width: 80%;
+    text-align: right;
+    background-color: rgba(0, 0, 0, .5);
+}
+section {
+    line-height: 40px;
+}
+div {
+    letter-spacing: -1px;
+}
+h1 {
+    text-decoration: underline tomato dotted;
+}
+h2 {
+    max-width: 20%;
+    text-shadow: -5px 2px 4px tomato;
+    letter-spacing: 9px;
+    text-transform: capitalize;
+}
+h3 span {
+    font-size: 50%;
+    vertical-align: -1px;
+}
+
+

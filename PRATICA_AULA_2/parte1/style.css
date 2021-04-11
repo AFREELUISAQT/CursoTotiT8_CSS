@@ -1,0 +1,40 @@
+/*.bold {
+    font-weight: 700; 
+}*/
+/*[class="bold"] {
+    font-weight: 700;
+} */ 
+.red {
+    color: red;
+}
+
+#mainTitle {
+    font-size: 89px;
+    color: blue;
+}
+
+[href="http://google.com"] {
+    color: red;
+}
+[href="https://google.com"] {
+    color:blue;
+}
+
+a.bold {
+    font-weight: 900;
+}
+
+* {
+    color:chartreuse
+}
+section p {
+    color:coral
+}
+section div {
+    font-weight: bold;
+}
+
+.cualquiernombre {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
