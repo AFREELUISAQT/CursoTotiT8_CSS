@@ -2,217 +2,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
     font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
-    outline: none;
 }
 
-html, 
 body {
-    width: 100%;
-    background: #180E0B;
-    
+    margin: 0
 }
 
-header {
-    
-    width: 100%;
-    height: 600px;
+img {
+    max-width: 100%;
 }
 
-.container-header{
+#menu-logo {
+    color:white;
+    padding-bottom: 0.4rem;
+}
+
+.nav-menu {
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    padding: 10px;
     justify-content: space-between;
-    margin-top: 10px;
-
-}
-
-h1 {
-    color: white;
-    font-size: 41px;
-    
-}
-
-nav{
-    
-    width: 100%;
-    height: 125px;
-    display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    
-}
-nav ul{
-    display: flex;
-    flex-direction: row;
-}
-nav ul li {
-    list-style: none;
-    padding: 10px;
-    cursor: pointer;   
+    padding: 2rem 6rem;
+    background-color: #000000;
 }
 
-nav ul li a {
-    color: white;
+.nav-menu > nav > a {
+    padding: 1em 1.5em;
     text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #56c9d6;
-    text-decoration: none;
-   
-}
-
-button{
-    width: 100px;
-    height: 50px;
-    border-radius: 10px;
-    background: #56c9d6;
-    border:none;
     color: white;
-    font-size: 17px;
+    display: none;
+}
+
+.nav-menu > nav > .mobile-btn {
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
     cursor: pointer;
 }
 
+.nav-menu > nav > a.active {
+    background-color: #56c9d6;
+    border-radius: 0.4em;
+}
 
-.img-principal img {
+#menu-banner {
+    height: 15rem;
+    background-image: url('img/1.jpg');
+    background-position: center 10%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: calc(1261rem / 16);
+    margin: auto;
+}
+
+.sec-1 > .card {
+    /* border: 1px solid;    */
+    margin: 1.5rem 0.5rem;
+    padding: 0.5rem;
+    width: calc(260rem / 16);
+    max-width: calc(300rem / 16);
+}
+
+.sec-1 > .card > .card-img {
+    height: 15rem;
     width: 100%;
-    height: 460px;    
-    position: relative;
+    object-fit: cover;
 }
 
-section{
-    
-    background: white;
-    padding-top: 60px;
-    
+.sec-1 > .card > .card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
-.container-left{
-    position: relative;
+.sec-1 > .card > .card-text {
+    font-size: 1rem;
+}
+
+.sec-2 {
+    background-color: #372019;
+    padding: 4rem 4rem 6rem 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.sec-sing {
+    padding: 0 0.5rem;
+    color: #8c5240;
+}
+
+.sec-sing > h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+.sec-sing img {
+    object-fit: cover;
+}
+
+.sec-col {
+    max-width: calc(380rem / 16)
+}
+
+.sec-col > article {
     display: flex;
     justify-content: space-between;
-    
-    align-content: center;
-    padding: 50px;
-    
+    margin-bottom: 1rem;
 }
 
-
-.title-article-1{
-    padding-top: 20px;
-    font-size: 21px;
-    font-weight: bold;
-    
-}
-.paragha-article-1{
-    padding-top: 20px;
-    font-size: 17px;
-    width: 70%;
+.sec-col > article > img {
+    margin-right: 0.5rem;
+    width: 5rem;
+    height: 5rem;
 }
 
-.container-rigth{
-    padding-top: 20px;
-    background-color:#372019;
-    padding-left: 40px;
- 
-}
-
-.justifi-content-right{
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    
-}
-.justify{
-    width: 25%;
-}
-.justify-img-par{
-    display: inline-flex;
-    align-items: center;
-}
-
-.justify-img-par2{
-    flex-direction: column;
-
-}
-.title-article-2{
-    padding-top: 50px;
-    padding-bottom: 20px;
-    font-size: 21px;
-    font-weight: bold;
+.sec-col > article > p {
     color: #8c5240;
-   
 }
-.paragha-article-2{
-    font-size: 17px;
-    color: #8c5240;
-    width: 40%;
-    justify-content: left;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    margin-left: 20px;
-        
-}
-.paragha-article-23{
-    font-size: 17px;
-    color: #8c5240;
+
+.post-lg > img {
+    height: 10rem;
     width: 100%;
-    justify-content: left;
-    padding-top: 15px;
-    padding-bottom: 20px;
 }
+
+
 aside{
     background-color:#261611;
     color: #774535;
-}
-.container-sidebar{
-    position: relative;
-    padding-top: 20px;
-    padding-left: 40px;
-    width: 80%;
-    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: start;
+    
     
 }
-
-.justify-content-sidebar{
-    position: relative;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.container-sidebar{
+   width: 50%;
 }
 
 .paragha-article-4, a{
     padding-bottom: 20px;
-   
+    font-size: 1rem;
     color: #774535;
-
-    
-   
-}
-.justify-aside{
-    width: 50%;
-}
-.ancoras{
-    width: 50%;
-    padding-left: 180px;
-    
+  
 }
 
-.link {
+aside > div > ul{
+    list-style-type: none;
     line-height: 2.5;
     color: #774535;
-    
-    
+    padding: 0;
 }
-
 
 footer{
     background:#160d0a;
@@ -223,6 +168,57 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
 }
 
+@media screen and (min-width: 700px) {
+    .nav-menu > nav > a {
+        display: inline-block;
+    }
+    .nav-menu > nav > .mobile-btn {
+        display: none;
+    }
+    #menu-banner {
+        height: 25rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .sec-1 {
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media screen and (min-width: 640px) {
+    .sec-2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .sec-sing {
+        flex: 1;
+    }
+    .post-lg {
+        min-width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+@media screen and (min-width: 1080px) {
+    .sec-2 {
+        flex-wrap: nowrap;
+    }
+    .sec-2 > .sec-col {
+        min-width: 25%;
+        width: 25%;
+        box-sizing: border-box;
+    }
+
+    .sec-2 > .post-lg {
+        min-width: 50%;
+        width: 50%;
+    }
+    .sec-sing {
+        flex: 0;
+    }
+}
